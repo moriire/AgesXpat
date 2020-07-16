@@ -25,6 +25,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="theme-color" content="#f12365">
+    <script>
+		 
+		 fetch("sidebar.html")
+		  .then(function(response) {
+		    return response.text();
+		  })
+		  .then(function(body) {
+		    document.querySelector('.sidebar').innerHTML = body;
+		  });
+    	//$(document).ready(function(){
+		//$(".sidebar").load("sidebar.html");
+    	//})
+    	
+    </script>
 </head>
 
 <body>
@@ -43,31 +57,7 @@
 
     <!-- Sidebar -->
     <header class="sidebar">
-        <div class="backgroundShape-left"></div>
-        <div class="sidebar-content clearfix">
-            <!-- Main Menu Button -->
-            <div class="menu-icon">
-                <button id="nav_btn" class="pointer-open"><i class="fas fa-bars"></i></button>
-            </div> <!-- Main Menu Button End -->
-            <!-- My Image -->
-            <div class="author-image theme-bg-color">
-                <img src="img/author/2.png" alt="author-image">
-            </div> <!-- My Image End -->
-            <!-- My Social Links -->
-            <div class="author-social-icons text-center">
-                <ul>
-                    <li><a href="#" class="pointer-href"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="pointer-href"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="pointer-href"><i class="fas fa-basketball-ball"></i></a></li>
-                    <li><a href="#" class="pointer-href"><i class="fab fa-behance"></i></a></li>
-                    <li><a href="#" class="pointer-href"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-            </div> <!-- My Social Links End -->
-            <!-- Copyright -->
-            <div class="copyright-area text-center">
-                <p><a href="templateshub.net">Templates Hub</a> <span><script>document.write(new Date().getFullYear());</script></span></p>
-            </div> <!-- Copyright End -->
-        </div>
+       
     </header> <!-- Sidebar end -->
 
     <!-- Single Page -->
