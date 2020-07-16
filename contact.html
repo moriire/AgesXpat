@@ -19,7 +19,7 @@
 		
 		  fetch("nav.html")
 		  .then(function(response) {
-		    return response.text();
+		    return response.html();
 		  })
 		  .then(function(body) {
 		    document.querySelector('#nav').innerHTML = body;
@@ -28,7 +28,7 @@
 		  <script>
 		 fetch("sidebar.html")
 		  .then(function(response) {
-		    return response.text();
+		    return response.html();
 		  })
 		  .then(function(body) {
 		    document.querySelector('.sidebar').innerHTML = body;
