@@ -28,7 +28,7 @@
     <meta name="theme-color" content="#f12365">
 </head>
 
-<body onload="components()">
+<body>
     <!--[if IE]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
@@ -137,10 +137,11 @@
 
 <script>
 $(document).ready(function (){
-components ();
+components1();
+components2();
 });
 
-		function components(){
+		function components1(){
 		  fetch("./nav.html")
 		  .then(function(response) {
 		    return response.text();
@@ -148,7 +149,9 @@ components ();
 		  .then(function(body) {
 		    document.querySelector('#nav').innerHTML = body;
 		  });
-		
+		};
+function components2(){
+
 		 fetch("./sidebar.html")
 		  .then(function(response) {
 		    return response.text();
