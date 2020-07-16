@@ -16,7 +16,16 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
     <script>
-		 
+		
+		  fetch("nav.html")
+		  .then(function(response) {
+		    return response.text();
+		  })
+		  .then(function(body) {
+		    document.querySelector('#nav').innerHTML = body;
+		  });
+		 </script>
+		  <script>
 		 fetch("sidebar.html")
 		  .then(function(response) {
 		    return response.text();
@@ -24,10 +33,6 @@
 		  .then(function(body) {
 		    document.querySelector('.sidebar').innerHTML = body;
 		  });
-    	//$(document).ready(function(){
-		//$(".sidebar").load("sidebar.html");
-    	//})
-    	
     </script>
     <!-- All CSS Called Here -->  
     <link rel="stylesheet" href="css/all.min.css">
@@ -141,92 +146,6 @@
     <!-- ======================================= -->
     <!-- Menu Container -->
     <nav class="menu-container overlay-bg">
-        <!-- Menu Close -->
-        <div class="menu-close pointer-large"></div>
-
-        <!-- Sub Menu Close -->
-        <div class="submenu-close-box">
-            <div class="submenu-close pointer-large">
-                <button type="button"><i class="fas fa-arrow-left"></i>BACK</button>
-            </div>
-        </div><!-- Sub Menu Close End -->
-
-        <!-- Main Menu -->
-        <ul class="main-menu overlay-bg">
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change active">
-                <a href="index.html" class="pointer-large nav-link">
-                    <span class="nav-btn" data-text="home">.home</span>
-                </a>
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/home.png);"></div>
-            </li><!-- Menu Box End -->
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change">
-                <a href="about.html" class="pointer-large nav-link">
-                    <span class="nav-btn" data-text="about">.about</span>
-                </a>
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/about.png);"></div>
-            </li><!-- Menu Box End -->
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change">
-                <a href="resume.html" class="pointer-large nav-link">
-                    <span class="nav-btn" data-text="resume">.resume</span>
-                </a>
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/resume.png);"></div>
-            </li><!-- Menu Box End -->
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change submenu-open">
-                <a class="pointer-large nav-link">
-                    <span class="nav-btn" data-text="portfolio">.portfolio</span>
-                </a>
-                <!-- Sub Menu -->
-                <ul class="submenu">
-                    <li class="nav-box">
-                        <a href="portfolio.html" class="pointer-large">
-                            <span class="nav-btn" data-text="portfolio">.portfolio</span>
-                        </a>
-                    </li>
-                    <li class="nav-box">
-                        <a href="portfolio-archives.html" class="pointer-large">
-                            <span class="nav-btn" data-text="portfolio archives">.portfolio archives</span>
-                        </a>
-                    </li>
-                    <li class="nav-box">
-                        <a href="portfolio-details.html" class="pointer-large">
-                            <span class="nav-btn" data-text="portfolio details">.portfolio details</span>
-                        </a>
-                    </li>
-                </ul><!-- Sub Menu End -->
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/portfolio.png);"></div>
-            </li><!-- Menu Box End -->
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change submenu-open">
-                <a class="pointer-large nav-link">
-                    <span class="nav-btn" data-text="blog">.blog</span>
-                </a>
-                <!-- Sub Menu -->
-                <ul class="submenu">
-                    <li class="nav-box">
-                        <a href="blog.html" class="pointer-large">
-                            <span class="nav-btn" data-text="blog">.blog</span>
-                        </a>
-                    </li>
-                    <li class="nav-box">
-                        <a href="blog-details.html" class="pointer-large">
-                            <span class="nav-btn" data-text="blog details">.blog details</span>
-                        </a>
-                    </li>
-                </ul><!-- Submenu End -->
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/blog.png);"></div>
-            </li><!-- Menu Box End -->
-            <!-- Menu Box -->
-            <li class="nav-box mouseover-image-change">
-                <a href="contact.html" class="pointer-large nav-link">
-                    <span class="nav-btn active" data-text="contact">.contact</span>
-                </a>
-                <div class="mouseover-image" style="background-image: url(img/nav-hover/contact.png);"></div>
-            </li><!-- Menu Box End -->
-        </ul><!-- Main Menu End -->
     </nav><!-- Menu Container End -->
     <button id="back_to_top" class="btnEntrance pointer-href"><i class="fas fa-arrow-up"></i></button>
 
