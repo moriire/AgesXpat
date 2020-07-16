@@ -15,7 +15,6 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
- <script src="js/vendor/jquery-3.4.1.min.js"></script>
 	 <script>
 		 
 		 fetch("sidebar.html")
@@ -24,6 +23,13 @@
 		  })
 		  .then(function(body) {
 		    document.querySelector('.sidebar').innerHTML = body;
+		  });
+		  fetch("nav.html")
+		  .then(function(response) {
+		    return response.text();
+		  })
+		  .then(function(body) {
+		    document.querySelector('#navigation').innerHTML = body;
 		  });
     	//$(document).ready(function(){
 		//$(".sidebar").load("sidebar.html");
@@ -218,6 +224,7 @@
 
     <!-- All JS Called Here -->
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
