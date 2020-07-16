@@ -28,7 +28,7 @@
 		  <script>
 		 fetch("sidebar.html")
 		  .then(function(response) {
-		    return response.html();
+		    return response.contents();
 		  })
 		  .then(function(body) {
 		    document.querySelector('.sidebar').innerHTML = body;
