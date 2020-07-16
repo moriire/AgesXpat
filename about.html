@@ -25,8 +25,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="theme-color" content="#f12365">
-    <script>
-		 
+   <script>
+		
+		  fetch("nav.html")
+		  .then(function(response) {
+		    return response.text();
+		  })
+		  .then(function(body) {
+		    document.querySelector('#nav').innerHTML = body;
+		  });
+		 </script>
+		  <script>
 		 fetch("sidebar.html")
 		  .then(function(response) {
 		    return response.text();
@@ -34,12 +43,8 @@
 		  .then(function(body) {
 		    document.querySelector('.sidebar').innerHTML = body;
 		  });
-    	//$(document).ready(function(){
-		//$(".sidebar").load("sidebar.html");
-    	//})
-    	
     </script>
-</head>
+	</head>
 
 <body>
     <!--[if IE]>
@@ -314,7 +319,7 @@
         </div><!-- Sub Menu Close End -->
 
         <!-- Main Menu -->
-        <ul class="main-menu overlay-bg">
+        <ul class="main-menu overlay-bg" id="nav">
             <!-- Menu Box -->
             <li class="nav-box mouseover-image-change active">
                 <a href="index.html" class="pointer-large nav-link">
