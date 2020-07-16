@@ -17,9 +17,17 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
  <script src="js/vendor/jquery-3.4.1.min.js"></script>
 	 <script>
-    	$(document).ready(function(){
-		$(".sidebar").load("sidebar.html");
-    	})
+		 
+		 fetch("sidebar.html")
+		  .then(function(response) {
+		    return response.text();
+		  })
+		  .then(function(body) {
+		    document.querySelector('.sidebar').innerHTML = body;
+		  });
+    	//$(document).ready(function(){
+		//$(".sidebar").load("sidebar.html");
+    	//})
     	
     </script>
     <!-- All CSS Called Here -->
