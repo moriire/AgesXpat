@@ -18,14 +18,7 @@
     <script>
 	    function comp(){
 		
-		  fetch("nav.html")
-.then(function(response) {
-		    return response.text();
-		  })
-.then(function(body) {
-		    document.querySelector('#nav').innerHTML = body;
-		  });
-		 
+	
 		 fetch("sidebar.html")
 		  .then(function(response) {
 		    return response.text();
@@ -181,17 +174,8 @@
 <script>
 $(document).ready(function(){
 		    alert("hello");
-		    fetch("nav.html").then(function(response) {
-		    return response.text();
-		  }).then(function(body) {
-		    document.querySelector('#nav').innerHTML = body;
-		  });
-		 
-		 fetch("sidebar.html").then(function(response) {
-		    return response.text();
-		  }).then(function(body) {
-		    document.querySelector('.sidebar').innerHTML = body;
-		  });
+		      $('#nav').load("nav.html");
+			$('.sidebar').load("sidebar.html");
 	    
 	    })
 </script>
