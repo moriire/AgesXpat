@@ -174,8 +174,8 @@ $("#sidebar").load("sidebar.html")
 
 </script>
 
-<script type="text/javascript"> /*
-    $('#sidebar').click(function () { 
+<script type="text/javascript"> 
+    $('body').load(function () { 
         $.ajax({
             context: this,
             dataType : "html",
@@ -185,7 +185,7 @@ $("#sidebar").load("sidebar.html")
             }
         });
     }); 
-*/
+
 </script> 
 
 </body>
