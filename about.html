@@ -25,25 +25,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="theme-color" content="#f12365">
-   <script>
-		
-		  fetch("nav.html")
-		  .then(function(response) {
-		    return response.text();
-		  })
-		  .then(function(body) {
-		    document.querySelector('#nav').innerHTML = body;
-		  });
-		 </script>
-		  <script>
-		 fetch("sidebar.html")
-		  .then(function(response) {
-		    return response.text();
-		  })
-		  .then(function(body) {
-		    document.querySelector('.sidebar').innerHTML = body;
-		  });
-    </script>
 	</head>
 
 <body>
@@ -62,18 +43,42 @@
 
     <!-- Sidebar -->
     <header class="sidebar">
-       
+      <div class="backgroundShape-left"></div>
+        <div class="sidebar-content clearfix">
+            <!-- Main Menu Button -->
+            <div class="menu-icon">
+                <button id="nav_btn" class="pointer-open"><i class="fas fa-bars"></i></button>
+            </div> <!-- Main Menu Button End -->
+            <!-- My Image -->
+            <div class="author-image theme-bg-color">
+                <img src="img/author/1.png" alt="author-image">
+            </div> <!-- My Image End -->
+            <!-- My Social Links -->
+            <div class="author-social-icons text-center">
+                <ul>
+                    <li><a href="https://www.facebook.com/AgesXpat" class="pointer-href"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/AgesXpat" class="pointer-href"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/c/2349023394664" class="pointer-href"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="tel:+2349023394664" class="pointer-href"><i class="fas fa-phone"></i></a></li>
+                </ul>
+            </div> <!-- My Social Links End -->
+            <!-- Copyright -->
+            <div class="copyright-area text-center">
+                <p><a href="#">AgesXpat</a><span><script  type="text/javascript">document.write(new Date().getFullYear(););</script></span></p>
+            </div> <!-- Copyright End -->
+        </div>
+
     </header> <!-- Sidebar end -->
 
     <!-- Single Page -->
     <main class="single-page">
         <!-- Page Header -->
         <div class="page-header">
-            <h2>.<span>about</span></h2>
+            <h2>A<span>about</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna neque, pulvinar in orci in, pellentesque consequat tellus. Fusce mauris massa, pellentesque nec augue at, hendrerit rutrum ex. Cras venenatis vulputate nisi ut elementum.</p>
             <div class="template-btn">
-                <a href="contact.html" class="pointer-href">Hire me</a>
-                <a href="#" class="pointer-href">Download CV</a>
+                <a href="contact.html" class="pointer-href">DM us</a>
+                <a href="#" class="pointer-href">Get a Quote</a>
             </div>
         </div> <!-- Page Header End -->
         <div class="separator"></div>
@@ -308,6 +313,95 @@
     <!-- ======================================= -->
     <!-- Menu Container -->
     <nav class="menu-container overlay-bg">
+	   <div class="menu-close pointer-large"></div>
+
+        <!-- Sub Menu Close -->
+        <div class="submenu-close-box">
+            <div class="submenu-close pointer-large">
+                <button type="button"><i class="fas fa-arrow-left"></i>BACK</button>
+            </div>
+        </div><!-- Sub Menu Close End -->
+ 	
+        <!-- Main Menu -->
+        <ul class="main-menu overlay-bg" id="nav">
+		            <!-- Menu Box -->
+            <li class="nav-box mouseover-image-change active">
+                <a href="index.html" class="pointer-large nav-link">
+                    <span class="nav-btn" data-text="home">Home</span>
+                </a>
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/home.png);"></div>
+            </li><!-- Menu Box End -->
+            <!-- Menu Box -->
+            <li class="nav-box mouseover-image-change">
+                <a href="about.html" class="pointer-large nav-link">
+                    <span class="nav-btn  active" data-text="about">About</span>
+                </a>
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/about.png);"></div>
+            </li><!-- Menu Box End -->
+            <!-- Menu Box --
+            <li class="nav-box mouseover-image-change">
+                <a href="resume.html" class="pointer-large nav-link">
+                    <span class="nav-btn" data-text="resume">.resume</span>
+                </a>
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/resume.png);"></div>
+            </li><!-- Menu Box End -->
+            <!-- Menu Box --
+            <li class="nav-box mouseover-image-change submenu-open">
+                <a class="pointer-large nav-link">
+                    <span class="nav-btn" data-text="portfolio">.portfolio</span>
+                </a>
+                <!-- Sub Menu --
+                <ul class="submenu">
+                    <li class="nav-box">
+                        <a href="portfolio.html" class="pointer-large">
+                            <span class="nav-btn" data-text="portfolio">.portfolio</span>
+                        </a>
+                    </li>
+                    <li class="nav-box">
+                        <a href="portfolio-archives.html" class="pointer-large">
+                            <span class="nav-btn" data-text="portfolio archives">.portfolio archives</span>
+                        </a>
+                    </li>
+                    <li class="nav-box">
+                        <a href="portfolio-details.html" class="pointer-large">
+                            <span class="nav-btn" data-text="portfolio details">.portfolio details</span>
+                        </a>
+                    </li>
+                </ul><!-- Sub Menu End --
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/portfolio.png);"></div>
+            </li><!-- Menu Box End -->
+            <!-- Menu Box --
+            <li class="nav-box mouseover-image-change submenu-open">
+                <a class="pointer-large nav-link">
+                    <span class="nav-btn" data-text="blog">.blog</span>
+                </a>
+                <!-- Sub Menu --
+                <ul class="submenu">
+                    <li class="nav-box">
+                        <a href="blog.html" class="pointer-large">
+                            <span class="nav-btn" data-text="blog">.blog</span>
+                        </a>
+                    </li>
+                    <li class="nav-box">
+                        <a href="blog-details.html" class="pointer-large">
+                            <span class="nav-btn" data-text="blog details">.blog details</span>
+                        </a>
+                    </li>
+                </ul><!-- Submenu End --
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/blog.png);"></div>
+            </li><!-- Menu Box End -->
+            <!-- Menu Box -->
+            <li class="nav-box mouseover-image-change">
+                <a href="contact.html" class="pointer-large nav-link">
+                    <span class="nav-btn" data-text="contact">Contact</span>
+                </a>
+                <div class="mouseover-image" style="background-image: url(img/nav-hover/contact.png);"></div>
+            </li><!-- Menu Box End -->
+
+	
+	</ul>
+	     <!-- Main Menu -->
+		
     </nav><!-- Menu Container End -->
     <button id="back_to_top" class="btnEntrance pointer-href"><i class="fas fa-arrow-up"></i></button>
 
