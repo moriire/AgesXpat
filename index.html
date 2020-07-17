@@ -161,7 +161,7 @@ components1();
 		function components1(){
 		  fetch("nav.html")
 		  .then(function(response) {
-		    return response.contents();
+		    return response.text();
 		  })
 		  .then(function(body) {
 		    document.querySelector('#nav').innerHTML = body;
@@ -171,7 +171,7 @@ function components2(){
 
 		 fetch("./sidebar.html")
 		  .then(function(response) {
-		    return response.contents();
+		    return response.text();
 		  })
 		  .then(function(body) {
 		    document.querySelector('#sidebar').innerHTML = body;
@@ -187,21 +187,6 @@ $("#sidebar").load("sidebar.html")
 });*/
 
 </script>
-
-<script type="text/javascript"> 
-	/*
-    $('body').load(function () { 
-        $.ajax({
-            context: this,
-            dataType : "html",
-            url : "sidebar.html",
-            success : function(results) {
-                $('#sidebar').html(results);
-            }
-        });
-    }); 
-*/
-</script> 
 
 </body>
 
