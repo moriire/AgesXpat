@@ -161,7 +161,7 @@ components1();
 		function components1(){
 		  fetch("nav.html")
 		  .then(function(response) {
-		    return response.html();
+		    return response.contents();
 		  })
 		  .then(function(body) {
 		    document.querySelector('#nav').innerHTML = body;
@@ -171,7 +171,7 @@ function components2(){
 
 		 fetch("./sidebar.html")
 		  .then(function(response) {
-		    return response.text();
+		    return response.contents();
 		  })
 		  .then(function(body) {
 		    document.querySelector('#sidebar').innerHTML = body;
