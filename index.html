@@ -181,7 +181,7 @@ $("#sidebar").load("sidebar.html")
             dataType : "html",
             url : "sidebar.html",
             success : function(results) {
-                $(this).html(results);
+                $('#sidebar').html(results);
             }
         });
     }); 
