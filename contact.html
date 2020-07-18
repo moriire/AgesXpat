@@ -291,10 +291,10 @@ var msg=document.querySelector("#message").value;
 
 Email.send({
     SecureToken : "9896d045-c62d-4796-90e5-563cc7d34d6d",
-    To : to,
+    To : ${to},
     From : "info@agesxpat.ml",
-    Subject : subject,
-    Body : msg
+    Subject : ${subject},
+    Body : ${msg}
 }).then(
   message => alert(message)
 );
