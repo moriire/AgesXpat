@@ -5,7 +5,7 @@
         width: 340px;
     }
     .home-section {
-        margin-left: 340px;
+        margin-left: 170px; /* 340px;*/
     }
     #particles-js {
         left: 340px;
