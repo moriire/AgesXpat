@@ -467,7 +467,7 @@
         transform: rotate(-90deg);
         width: 170px;
         position: relative;
-        top: 204px;
+        top: 102px; /* 204px;*/
         left: -56px;
         text-align: left;
     }
