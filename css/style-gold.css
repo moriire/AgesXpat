@@ -2162,7 +2162,7 @@ p.client-name span {
 }
 .body-highlight {
 	width: 80%;
-	background: #000;
+	background: #ffd55a;
 	border-left: 2px solid #f12365;
 	padding: 25px;
 	margin-bottom: 30px;
