@@ -137,12 +137,12 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 }
 ::-webkit-selection {
     color: #fff;
-    background: #f12365;
+    background: #ffd55a;
     text-shadow: none;
 }
 ::selection {
     color: #fff;
-    background: #f12365;
+    background:#ffd55a;
     text-shadow: none;
 }
 .no-padding {
@@ -154,12 +154,12 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
     margin: 50px 0;
 }
 .separator-color {
-    border: thin solid #f12365;
+    border: thin solid #ffd55a;
     margin: 50px 0;
     width: 25%;
 }
 .theme-bg-color {
-    background: #f12365;
+    background: #ffd55a;
 }
 .theme-color {
     color: #f12365;
