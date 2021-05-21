@@ -418,11 +418,11 @@
         left: 50px;
     }
     .sidebar {
-        width: 50px;
+        width: 80px;
         overflow-x: hidden;
     }
     .author-image {
-        min-height: 80px;
+        min-height: 100px;
         margin-bottom: 0;
     }
     .backgroundShape-left {
@@ -467,7 +467,7 @@
         transform: rotate(-90deg);
         width: 170px;
         position: relative;
-        top: 306px;/* 204px;*/
+        top: 204px;
         left: -56px;
         text-align: left;
     }
