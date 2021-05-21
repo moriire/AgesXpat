@@ -15,8 +15,8 @@
         margin-bottom: 30px;
     }
     .author-social-icons ul li a {
-        font-size: 18px;
-        margin: 0 12px;
+        font-size: 20px;
+        margin: 0 18px;
     }
     .mouseover-image {
         display: none;
@@ -448,7 +448,7 @@
     }
     .menu-icon button {
         position: absolute;
-        top: 150px;
+        top: 120px;
         left: 50%;
         transform: translateX(-50%);
         color: #293250;
