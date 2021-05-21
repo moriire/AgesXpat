@@ -386,20 +386,20 @@ body.out .pointer {
     width: 50px;
     height: 50px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #f12365;
-        box-shadow: 0 0 30px #f12365;
+    -webkit-box-shadow: 0 0 30px #ffd55a;
+        box-shadow: 0 0 30px #ffd55a;
 }    
 .pointer.small {
     width: 25px;
     height: 25px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #f12365;
-        box-shadow: 0 0 30px #f12365;
+    -webkit-box-shadow: 0 0 30px #ffd55a;
+        box-shadow: 0 0 30px #ffd55a;
 }    
 .pointer.right {
     width: 70px;
     height: 70px;
-    background: #f12365;
+    background: #ffd55a;
 }    
 .pointer.open {
     width: 50px;
@@ -412,8 +412,8 @@ body.out .pointer {
     width: 40px;
     height: 40px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #f12365;
-        box-shadow: 0 0 30px #f12365;
+    -webkit-box-shadow: 0 0 30px #ffd55a;
+        box-shadow: 0 0 30px #ffd55a;
 }
 .pointer.input {
     width: 2px;
@@ -571,7 +571,7 @@ body.out .pointer {
     height: 200px;
     margin-top: 70px;
     background: transparent;
-    border: 50px solid #f12365;
+    border: 50px solid #ffd55a;
     border-radius: 50%;
     will-change: transform;
     animation: backgroundShape 5s linear infinite;
@@ -1092,7 +1092,7 @@ body.out .menu-container.active .submenu-close.active {
 	display: inline-block;
 	padding: 12px 40px;
 	color: #fff;
-    background: #f12365;
+    background: #ffd55a;
     border: thin solid #ffd55a;
     border-radius: 50px;
     margin-right: 30px;
@@ -1101,7 +1101,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .template-btn a:last-child {
-	color: #f12365;
+	color: #ffd55a;
     background: #fff;
     border: thin solid #fff;
 }
@@ -1111,7 +1111,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .template-btn a:last-child:hover {
-	color: #f12365;
+	color: #ffd55a;
     background: #101010;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1202,25 +1202,25 @@ body.out .menu-container.active .submenu-close.active {
 
 /* Tooltip */
 .tooltip-inner {
-    background-color: #f12365 !important;
+    background-color: #ffd55a !important;
     color: #fff;
     font-size: 14px;
 }
 .bs-tooltip-top .arrow::before,
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
-    border-top-color: #f12365 !important;
+    border-top-color: #ffd55a !important;
 }
 .bs-tooltip-right .arrow::before,
 .bs-tooltip-auto[x-placement^="right"] .arrow::before {
-    border-right-color: #f12365 !important;
+    border-right-color: #ffd55a  !important;
 }
 .bs-tooltip-bottom .arrow::before,
 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-    border-bottom-color: #f12365 !important;
+    border-bottom-color: #ffd55a !important;
 }
 .bs-tooltip-left .arrow::before,
 .bs-tooltip-auto[x-placement^="left"] .arrow::before {
-    border-left-color: #f12365 !important;
+    border-left-color: #ffd55a !important;
 }
   /* END Tooltip */
 .dribbble-slider {
@@ -1280,7 +1280,7 @@ body.out .menu-container.active .submenu-close.active {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    border: thin solid #f12365;
+    border: thin solid #ffd55a;
     padding: 6px;
 }
 .read-more-btn {
@@ -1294,7 +1294,7 @@ body.out .menu-container.active .submenu-close.active {
     left: 0;
     width: 100%;
     height: 1px;
-    background: #f12365;
+    background: #ffd55a;
 }
 .read-more-btn:after {
     position: absolute;
@@ -1338,7 +1338,7 @@ body.out .menu-container.active .submenu-close.active {
 }
 .dribbble-slider-active .owl-nav button:hover.owl-next,
 .dribbble-slider-active .owl-nav button:hover.owl-prev {
-    color: #f12365;
+    color: #ffd55a
     background: #fff;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1363,7 +1363,7 @@ body.out .menu-container.active .submenu-close.active {
     left: 0;
     width: 100%;
     height: 0;
-    background: #f12365;
+    background: #ffd55a;
     opacity: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1382,7 +1382,7 @@ body.out .menu-container.active .submenu-close.active {
 .service-content h4 {
     position: relative;
     display: inline-block;
-    color: #f12365;
+    color: #ffd55a;
     margin: 30px 0;
     font-weight: 300;
     position: relative;
@@ -1421,7 +1421,7 @@ body.out .menu-container.active .submenu-close.active {
 }
 .service-icon i {
     font-size: 50px;
-    color: #f12365;
+    color: #ffd55a;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -1452,10 +1452,10 @@ body.out .menu-container.active .submenu-close.active {
     position: absolute;
     top: -20px;
     content: "+";
-    color: #f12365;
+    color: #ffd55a;
 }
 .title {
-    color: #f12365;
+    color: #ffd55a;
     font-size: 16px;
 }
 /* .Pricing Table */
