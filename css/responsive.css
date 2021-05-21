@@ -440,7 +440,7 @@
     }
     .author-social-icons ul li a {
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         line-height: 24px;
     }
     .menu-icon {
@@ -452,7 +452,7 @@
         left: 50%;
         transform: translateX(-50%);
         color: #293250;
-        font-size: 24px;
+        font-size: 30px;
         line-height: 18px;
     }
     .submenu-close button {
@@ -467,7 +467,7 @@
         transform: rotate(-90deg);
         width: 170px;
         position: relative;
-        top: 204px;
+        top: 250px;
         left: -56px;
         text-align: left;
     }
