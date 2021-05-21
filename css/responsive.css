@@ -429,7 +429,7 @@
         display: none;
     }
     .author-image img {
-        max-width: 50px;
+        max-width: 80px;
     }
     .author-social-icons {
         top: 100px;
@@ -439,7 +439,7 @@
         display: block;
     }
     .author-social-icons ul li a {
-        font-size: 14px;
+        font-size: 20px;
         margin-bottom: 20px;
         line-height: 24px;
     }
@@ -452,7 +452,7 @@
         left: 50%;
         transform: translateX(-50%);
         color: #293250;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 18px;
     }
     .submenu-close button {
