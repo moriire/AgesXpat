@@ -4,7 +4,7 @@ Template Name: Fariha – Personal Portfolio & Resume HTML Template
 Template URI: https://themeforest.weexen.com/fariha/fariha-demo/
 Description: Personal Portfolio & Resume html5 template
 Author: weexen
-Author URI: https://themeforest.net/user/weexen
+
 Version: 1.0
 
 -----------------------------------------------------------
@@ -132,17 +132,17 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #ffd55a;
     padding: 0.2em 0;
 }
 ::-webkit-selection {
     color: #fff;
-    background: #ffd55a;
+    background: #f12365;
     text-shadow: none;
 }
 ::selection {
     color: #fff;
-    background:#ffd55a;
+    background: #f12365;
     text-shadow: none;
 }
 .no-padding {
@@ -150,16 +150,16 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
     padding-right: 0 !important;
 }
 .separator {
-    border: 1px solid #000;
+    border: 1px solid #ffd55a;
     margin: 50px 0;
 }
 .separator-color {
-    border: thin solid #ffd55a;
+    border: thin solid #f12365;
     margin: 50px 0;
     width: 25%;
 }
 .theme-bg-color {
-    background: #ffd55a;
+    background: #f12365;
 }
 .theme-color {
     color: #f12365;
@@ -313,7 +313,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 
 /* 1.3. Default Form */
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */    
-    color: #fff;
+    color: #f12365;
 }
 ::-moz-placeholder { /* Firefox 19+ */    
     color: #f12365;
@@ -328,7 +328,7 @@ button.submit,
 button.form-submit-btn {
     width: 100%;
     border: none;
-    background: #ffd55a;
+    background: #f12365;
     text-transform: uppercase;
     height: 54px;
     line-height: 54px;
@@ -344,7 +344,7 @@ button.form-submit-btn {
 button.submit:hover,
 button.form-submit-btn:hover {
     background: #fff;
-    color: #ffd55a;
+    color: #f12365;
     -webkit-transition: all .5s;
     transition: all .5s;
     cursor: none;
@@ -375,7 +375,7 @@ button.form-submit-btn:hover {
     -webkit-transition-timing-function: cubic-bezier(.2, .96, .34, 1);
             transition-timing-function: cubic-bezier(.2, .96, .34, 1);
     border-radius: 50%;
-    background: #ffd55a;
+    background: #f12365;
     overflow: hidden;
 }    
 body.out .pointer {
@@ -386,39 +386,39 @@ body.out .pointer {
     width: 50px;
     height: 50px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #ffd55a;
-        box-shadow: 0 0 30px #ffd55a;
+    -webkit-box-shadow: 0 0 30px #f12365;
+        box-shadow: 0 0 30px #f12365;
 }    
 .pointer.small {
     width: 25px;
     height: 25px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #ffd55a;
-        box-shadow: 0 0 30px #ffd55a;
+    -webkit-box-shadow: 0 0 30px #f12365;
+        box-shadow: 0 0 30px #f12365;
 }    
 .pointer.right {
     width: 70px;
     height: 70px;
-    background: #ffd55a;
+    background: #f12365;
 }    
 .pointer.open {
     width: 50px;
     height: 50px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #000;
-        box-shadow: 0 0 30px #000;
+    -webkit-box-shadow: 0 0 30px #ffd55a;
+        box-shadow: 0 0 30px #ffd55a;
 }
 .pointer.href {
     width: 40px;
     height: 40px;
     background: transparent;
-    -webkit-box-shadow: 0 0 30px #ffd55a;
-        box-shadow: 0 0 30px #ffd55a;
+    -webkit-box-shadow: 0 0 30px #f12365;
+        box-shadow: 0 0 30px #f12365;
 }
 .pointer.input {
     width: 2px;
     height: 25px;
-    background: #ffd55a;
+    background: #f12365;
     border-radius: 0;
     -webkit-animation: form_input .7s infinite;
     animation: form_input .7s infinite;
@@ -442,7 +442,7 @@ body.out .pointer {
     }
 }    
 .pointer.black {
-    background: #000;
+    background: #ffd55a
 }
 .touch .pointer {
     display: none;
@@ -571,7 +571,7 @@ body.out .pointer {
     height: 200px;
     margin-top: 70px;
     background: transparent;
-    border: 50px solid #ffd55a;
+    border: 50px solid #f12365;
     border-radius: 50%;
     will-change: transform;
     animation: backgroundShape 5s linear infinite;
@@ -849,7 +849,7 @@ body.out .menu-container.active li li:nth-child(6) a {
 }
 .nav-btn.active,
 .nav-btn:hover {	
-    color: #ffd55a;
+    color: #f12365;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
@@ -907,7 +907,7 @@ body.out .menu-container.active li li:nth-child(6) a {
 }
 .submenu-close button {
     background: transparent;
-    color: #ffd55a;
+    color: #f12365;
     font-size: 18px;
     border: none;
     position: relative;
@@ -923,7 +923,7 @@ body.out .menu-container.active li li:nth-child(6) a {
     transition: all .5s;
 }
 .submenu-close button:hover i {
-    color: #ffd55a;
+    color: #f12365;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -964,7 +964,7 @@ body.out .menu-container.active .submenu-close.active {
 	top: 0;
     bottom: 0;
     background-size: 6px 6px !important;
-    background-image: linear-gradient(-45deg, #000 46%, #101010 49%, #101010 51%, #000 55%);
+    background-image: linear-gradient(-45deg, #ffd55a, 46%, #101010 49%, #101010 51%, #ffd55a 55%);
 	overflow: auto;
 	z-index: 11;
 }
@@ -1013,7 +1013,7 @@ body.out .menu-container.active .submenu-close.active {
     color: #fff;
 }
 .author-social-icons ul li a:hover {
-    color: #ffd55a;
+    color: #f12365;
 }
 .sidebar .copyright-area {
     width: 100%;
@@ -1044,10 +1044,10 @@ body.out .menu-container.active .submenu-close.active {
     padding: 100px;
 }
 .subtitle h3 span {
-    color: #ffd55a;
+    color: #f12365;
 }
 .page-header h2 span {
-    color: #ffd55a;
+    color: #f12365;
 }
 .page-header p {
     margin: 40px 0;
@@ -1055,13 +1055,13 @@ body.out .menu-container.active .submenu-close.active {
 
 /* 7.1. Home */
 .home-section {
-    margin-left: 480px;
+    margin-left: 240px; /*480px;*/
 }
 .home-container {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 50px;
+    padding: 25px; /*50px;*/
 }
 #particles-js {
 	height: 100%;
@@ -1080,20 +1080,20 @@ body.out .menu-container.active .submenu-close.active {
     font-style: italic;
 }
 .home-title h1 {
-	margin: 30px 0;
+	margin: 5px 0; /*10px 0;*/
 }
 .home-title h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	margin-bottom: 50px;
+	margin-bottom: 15px; /*30px;*/
 }
 .template-btn a:first-child,
 .template-btn a:last-child {
 	display: inline-block;
 	padding: 12px 40px;
 	color: #fff;
-    background: #ffd55a;
-    border: thin solid #ffd55a;
+    background: #f12365;
+    border: thin solid #f12365;
     border-radius: 50px;
     margin-right: 30px;
     text-transform: uppercase;
@@ -1101,7 +1101,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .template-btn a:last-child {
-	color: #ffd55a;
+	color: #f12365;
     background: #fff;
     border: thin solid #fff;
 }
@@ -1111,7 +1111,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .template-btn a:last-child:hover {
-	color: #ffd55a;
+	color: #f12365;
     background: #101010;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1202,25 +1202,25 @@ body.out .menu-container.active .submenu-close.active {
 
 /* Tooltip */
 .tooltip-inner {
-    background-color: #ffd55a !important;
+    background-color: #f12365 !important;
     color: #fff;
     font-size: 14px;
 }
 .bs-tooltip-top .arrow::before,
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
-    border-top-color: #ffd55a !important;
+    border-top-color: #f12365 !important;
 }
 .bs-tooltip-right .arrow::before,
 .bs-tooltip-auto[x-placement^="right"] .arrow::before {
-    border-right-color: #ffd55a  !important;
+    border-right-color: #f12365 !important;
 }
 .bs-tooltip-bottom .arrow::before,
 .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-    border-bottom-color: #ffd55a !important;
+    border-bottom-color: #f12365 !important;
 }
 .bs-tooltip-left .arrow::before,
 .bs-tooltip-auto[x-placement^="left"] .arrow::before {
-    border-left-color: #ffd55a !important;
+    border-left-color: #f12365 !important;
 }
   /* END Tooltip */
 .dribbble-slider {
@@ -1280,7 +1280,7 @@ body.out .menu-container.active .submenu-close.active {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    border: thin solid #ffd55a;
+    border: thin solid #f12365;
     padding: 6px;
 }
 .read-more-btn {
@@ -1294,7 +1294,7 @@ body.out .menu-container.active .submenu-close.active {
     left: 0;
     width: 100%;
     height: 1px;
-    background: #ffd55a;
+    background: #f12365;
 }
 .read-more-btn:after {
     position: absolute;
@@ -1338,7 +1338,7 @@ body.out .menu-container.active .submenu-close.active {
 }
 .dribbble-slider-active .owl-nav button:hover.owl-next,
 .dribbble-slider-active .owl-nav button:hover.owl-prev {
-    color: #ffd55a
+    color: #f12365;
     background: #fff;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1363,7 +1363,7 @@ body.out .menu-container.active .submenu-close.active {
     left: 0;
     width: 100%;
     height: 0;
-    background: #ffd55a;
+    background: #f12365;
     opacity: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1382,7 +1382,7 @@ body.out .menu-container.active .submenu-close.active {
 .service-content h4 {
     position: relative;
     display: inline-block;
-    color: #ffd55a;
+    color: #f12365;
     margin: 30px 0;
     font-weight: 300;
     position: relative;
@@ -1421,7 +1421,7 @@ body.out .menu-container.active .submenu-close.active {
 }
 .service-icon i {
     font-size: 50px;
-    color: #ffd55a;
+    color: #f12365;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -1452,10 +1452,10 @@ body.out .menu-container.active .submenu-close.active {
     position: absolute;
     top: -20px;
     content: "+";
-    color: #ffd55a;
+    color: #f12365;
 }
 .title {
-    color: #ffd55a;
+    color: #f12365;
     font-size: 16px;
 }
 /* .Pricing Table */
