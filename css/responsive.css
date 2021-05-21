@@ -422,14 +422,14 @@
         overflow-x: hidden;
     }
     .author-image {
-        min-height: 100px;
+        min-height: 110px;
         margin-bottom: 0;
     }
     .backgroundShape-left {
         display: none;
     }
     .author-image img {
-        max-width: 80px;
+        max-width: 90px;
     }
     .author-social-icons {
         top: 100px;
