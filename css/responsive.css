@@ -451,7 +451,7 @@
         top: 100px;
         left: 50%;
         transform: translateX(-50%);
-        color: #f12365;
+        color: #293250;
         font-size: 18px;
         line-height: 18px;
     }
@@ -551,7 +551,7 @@
         margin-bottom: 30px;
     }
     .home-container {
-        padding: 30px;
+        padding: 10px;
     }
     .template-btn a:first-child,
     .template-btn a:last-child {
