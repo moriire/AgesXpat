@@ -1027,10 +1027,10 @@ body.out .menu-container.active .submenu-close.active {
     text-align: center;
 }
 .copyright-area p {
-    font-size: 14px;
+    font-size: 20px;
 }
 .copyright-area p span {
-    color: #f12365;
+    color: #fff;
 }
 
 /* ------------------------------
