@@ -5,7 +5,7 @@
         width: 340px;
     }
     .home-section {
-        margin-left: 170px; /* 340px;*/
+        margin-left: 340px;
     }
     #particles-js {
         left: 340px;
@@ -15,8 +15,8 @@
         margin-bottom: 30px;
     }
     .author-social-icons ul li a {
-        font-size: 20px;
-        margin: 0 18px;
+        font-size: 18px;
+        margin: 0 12px;
     }
     .mouseover-image {
         display: none;
@@ -233,11 +233,11 @@
         left: 200px;
     }
     .author-image {
-        min-height: 450px;
+        min-height: 380px;
     }
     .author-social-icons ul li a {
-        font-size: 18px;
-        margin: 0 14px;
+        font-size: 14px;
+        margin: 0 8px;
     }
     .blog-share-links ul li a {
         margin-right: 6px;
@@ -418,18 +418,18 @@
         left: 50px;
     }
     .sidebar {
-        width: 80px;
+        width: 50px;
         overflow-x: hidden;
     }
     .author-image {
-        min-height: 110px;
+        min-height: 80px;
         margin-bottom: 0;
     }
     .backgroundShape-left {
         display: none;
     }
     .author-image img {
-        max-width: 90px;
+        max-width: 50px;
     }
     .author-social-icons {
         top: 100px;
@@ -439,20 +439,20 @@
         display: block;
     }
     .author-social-icons ul li a {
-        font-size: 20px;
-        margin-bottom: 30px;
-        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 14px;
+        line-height: 20px;
     }
     .menu-icon {
         text-align: center;
     }
     .menu-icon button {
         position: absolute;
-        top: 120px;
+        top: 100px;
         left: 50%;
         transform: translateX(-50%);
-        color: #293250;
-        font-size: 30px;
+        color: #f12365;
+        font-size: 18px;
         line-height: 18px;
     }
     .submenu-close button {
@@ -467,7 +467,7 @@
         transform: rotate(-90deg);
         width: 170px;
         position: relative;
-        top: 250px;
+        top: 204px;
         left: -56px;
         text-align: left;
     }
@@ -551,7 +551,7 @@
         margin-bottom: 30px;
     }
     .home-container {
-        padding: 10px;
+        padding: 30px;
     }
     .template-btn a:first-child,
     .template-btn a:last-child {
