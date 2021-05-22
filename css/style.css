@@ -964,7 +964,7 @@ body.out .menu-container.active .submenu-close.active {
    top: 0;
     bottom: 0;
     background-size: 6px 6px !important;
-    background-image: linear-gradient(-45deg, #000 46%, #6dd47e 49%, #6dd47e 51%, #000 55%);
+    background-image: linear-gradient(-45deg, #ffd55a 49%, #ffd55a 51%, #000 55%);
    overflow: auto;
    z-index: 11;
 }
