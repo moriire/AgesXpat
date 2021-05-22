@@ -57,7 +57,7 @@ body {
     line-height: 30px;
     letter-spacing: 1px;
     background-size: 6px 6px !important;
-    background-image: linear-gradient(-45deg, #101010 46%, #060606 49%, #060606 51%, #101010 55%);
+    background-image: linear-gradient(-45deg, #293250 46%, #060606 49%, #060606 51%, #293250 55%);
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -165,7 +165,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
     color: #f12365;
 }
 .overlay-bg {
-    background: #101010;
+    background: #293250;
 }
 .mt-0 {
     margin-top: 0px;
@@ -457,7 +457,7 @@ body.out .pointer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #101010;
+    background-color: #293250;
     z-index: 99999;
 }
 .loader {
@@ -519,7 +519,7 @@ body.out .pointer {
     width: 300px;
     height: 300px;
     background: transparent;
-    border: 50px solid #101010;
+    border: 50px solid #293250;
     border-radius: 50%;
     will-change: transform;
     animation: backgroundShape 5s linear infinite;
@@ -719,7 +719,7 @@ body.out .menu-container.active .menu-close:before {
     -webkit-transition: 1.5s cubic-bezier(.23, 1, .32, 1);
             transition: 1.5s cubic-bezier(.23, 1, .32, 1);
     -webkit-transform: translateY(0);
-            transform: translateY(0);	
+            transform: translateY(0);  
 }    
 .menu-container.active li:nth-child(1) a,
 .menu-container.active li li:nth-child(1) a {
@@ -848,7 +848,7 @@ body.out .menu-container.active li li:nth-child(6) a {
     transition: all .3s;
 }
 .nav-btn.active,
-.nav-btn:hover {	
+.nav-btn:hover {  
     color: #f12365;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -959,18 +959,18 @@ body.out .menu-container.active .submenu-close.active {
     6.  Sidebar
 ------------------------------ */
 .sidebar {
-	position: fixed;
-	width: 480px;
-	top: 0;
+   position: fixed;
+   width: 480px;
+   top: 0;
     bottom: 0;
     background-size: 6px 6px !important;
-    background-image: linear-gradient(-45deg, #000 46%, #101010 49%, #101010 51%, #000 55%);
-	overflow: auto;
-	z-index: 11;
+    background-image: linear-gradient(-45deg, #000 46%, #293250 49%, #293250 51%, #000 55%);
+   overflow: auto;
+   z-index: 11;
 }
 .sidebar .sidebar-content {
-	position: relative;
-	min-height: 100%;
+   position: relative;
+   min-height: 100%;
 }
 .menu-icon button {
     position: absolute;
@@ -1064,34 +1064,34 @@ body.out .menu-container.active .submenu-close.active {
     padding: 25px; /*50px;*/
 }
 #particles-js {
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	left: 480px;
-	top: 0;
-	bottom: 0;
-	z-index: 1;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   left: 480px;
+   top: 0;
+   bottom: 0;
+   z-index: 1;
 }
 .home-title {
-	z-index: 2;
-	position: relative;
+   z-index: 2;
+   position: relative;
 }
 .home-title h3 {
     font-style: italic;
 }
 .home-title h1 {
-	margin: 5px 0; /*10px 0;*/
+   margin: 5px 0; /*10px 0;*/
 }
 .home-title h4 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	margin-bottom: 15px; /*30px;*/
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+   margin-bottom: 15px; /*30px;*/
 }
 .template-btn a:first-child,
 .template-btn a:last-child {
-	display: inline-block;
-	padding: 12px 40px;
-	color: #fff;
+   display: inline-block;
+   padding: 12px 40px;
+   color: #fff;
     background: #f12365;
     border: thin solid #f12365;
     border-radius: 50px;
@@ -1101,18 +1101,18 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .template-btn a:last-child {
-	color: #f12365;
+   color: #f12365;
     background: #fff;
     border: thin solid #fff;
 }
 .template-btn a:first-child:hover {
-    background: #101010;
+    background: #293250;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
 .template-btn a:last-child:hover {
-	color: #f12365;
-    background: #101010;
+   color: #f12365;
+    background: #293250;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -1257,7 +1257,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .dribbble-close-btn:hover i {
-    background: #101010;
+    background: #293250;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -1274,7 +1274,7 @@ body.out .menu-container.active .submenu-close.active {
             flex: 2;
 }
 .slider-text p {
-	margin: 18px 0;
+   margin: 18px 0;
 }
 .slider-image {
     -webkit-box-flex: 1;
@@ -1321,17 +1321,17 @@ body.out .menu-container.active .submenu-close.active {
 }
 /* Slider Nav */
 .dribbble-slider-active .owl-nav.disabled {
-	display: block;
+   display: block;
 }
 .dribbble-slider-active .owl-nav button.owl-next,
 .dribbble-slider-active .owl-nav button.owl-prev {
-	border: none;
-	position: absolute;
-	height: 24px;
-	width: 24px;
+   border: none;
+   position: absolute;
+   height: 24px;
+   width: 24px;
     background: #666;
-    color: #101010;
-	line-height: 24px;
+    color: #293250;
+   line-height: 24px;
     left: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -1431,7 +1431,7 @@ body.out .menu-container.active .submenu-close.active {
     transition: all .5s;
 }
 .single-service:hover .service-category {
-    color: #101010;
+    color: #293250;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -1546,19 +1546,19 @@ body.out .menu-container.active .submenu-close.active {
     margin: 0 auto;
     margin-bottom: 20px;
     border: thin solid #f12365;
-    background: #101010;
+    background: #293250;
     z-index: 4;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
 .clients-testimonial-active .owl-item img {
-	display: block;
-	width: 100px;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	-webkit-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+   display: block;
+   width: 100px;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   -webkit-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
 }
 .feedback-text {
     width: 100%;
@@ -1617,9 +1617,9 @@ p.client-name span {
     font-style: normal;
 }
 .clients-testimonial-active button.owl-dot {
-	height: 10px;
-	width: 10px;
-	border-radius: 5px;
+   height: 10px;
+   width: 10px;
+   border-radius: 5px;
     background: #f12365;
     border: 2px solid #f12365;
     margin: 0 6px;
@@ -1629,7 +1629,7 @@ p.client-name span {
 }
 .clients-testimonial-active button:hover.owl-dot,
 .clients-testimonial-active button.active {
-	background: transparent;
+   background: transparent;
     border: 2px solid #f12365;
     height: 16px;
     -webkit-transition: all .5s;
@@ -1657,53 +1657,53 @@ p.client-name span {
 /* 7.3. Resume */
 .timeline .timeline-item {
     display: table;
-	table-layout: fixed;
-	width: 100%;
-	position: relative;	
-	padding-bottom: 30px;
+   table-layout: fixed;
+   width: 100%;
+   position: relative;  
+   padding-bottom: 30px;
 }
 .timeline .timeline-item:last-child {
-	padding-bottom: 0;
+   padding-bottom: 0;
 }
 .timeline .timeline-left {
     display: table-cell;
     width: 30%;
-    min-height: 100%;	
-	padding-right: 25px;	
-	text-align: right;
-	vertical-align: top;
+    min-height: 100%;   
+   padding-right: 25px; 
+   text-align: right;
+   vertical-align: top;
 }
 .timeline .item-company {
-	display: block;
-	margin: 0 0 4px;
+   display: block;
+   margin: 0 0 4px;
     font-size: 13px;
     line-height: 26px;
 }
 .timeline .divider {
-	position: absolute;
-	top: 0;
-	left: 30%;
-	bottom: 0;
-	width: 1px;
-	background: #f12365;
+   position: absolute;
+   top: 0;
+   left: 30%;
+   bottom: 0;
+   width: 1px;
+   background: #f12365;
 }
 .timeline .divider:after {
-	content: '';
-	display: block;
-	margin-top: 4px;
-	margin-left: -6px;
-	width: 12px;
+   content: '';
+   display: block;
+   margin-top: 4px;
+   margin-left: -6px;
+   width: 12px;
     height: 12px;
     border: 3px solid #f12365;
-	border-radius: 6px;	
-	background: #101010;
+   border-radius: 6px;  
+   background: #293250;
 }
 .timeline .timeline-right {
     display: table-cell;
-	width: 70%;	
-	padding-left: 25px;
-	padding-right: 15px;
-	vertical-align: top;
+   width: 70%; 
+   padding-left: 25px;
+   padding-right: 15px;
+   vertical-align: top;
 }
 .timeline .timeline-right p {
     font-size: 13px;
@@ -1711,7 +1711,7 @@ p.client-name span {
 }
 .timeline .item-title,
 .timeline .item-period {
-	color: #f12365;
+   color: #f12365;
 }
 
 /* 7.3.2. Skills */
@@ -1719,10 +1719,10 @@ p.client-name span {
     float: left;
 }
 .single-skill {
-	margin-bottom: 15px;
+   margin-bottom: 15px;
 }
 .single-skill:last-child {
-	margin-bottom: 0;
+   margin-bottom: 0;
 }
 .skillbar {
     position: relative;
@@ -1766,11 +1766,11 @@ p.client-name span {
     color: #f12365;
 }
 .image-hover-btn {
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	position: absolute;
-	left: 0;
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   position: absolute;
+   left: 0;
     bottom: 0;
     opacity: 0;
     visibility: hidden;
@@ -1785,28 +1785,28 @@ p.client-name span {
     transition: all .5s;
 }
 .full-view-btn {
-	height: 50px;
-	width: 50%;
-	float: left;
+   height: 50px;
+   width: 50%;
+   float: left;
     background: #f12365;
     border: thin solid #f12365;
 }
 .load-more-btn {
     float: right;
     height: 50px;
-	width: 50%;
+   width: 50%;
     background: #fff;
     border: thin solid #fff;
 }
 .image-hover-btn .full-view-btn:hover,
 .image-hover-btn .load-more-btn:hover {
-    border: thin solid #101010;
+    border: thin solid #293250;
 }
 .full-view-btn:hover {
-    background: #101010;
+    background: #293250;
 }
 .load-more-btn:hover {
-	background: #101010;
+   background: #293250;
 }
 .full-view-btn a {
     color: #fff;    
@@ -1976,17 +1976,17 @@ p.client-name span {
     transition: all .5s;
 }
 .body-feature-video {
-	background: url('../img/portfolio/portfolio-details/2.jpg') no-repeat center center;
-	background-size: cover;
-	min-height: 400px;
+   background: url('../img/portfolio/portfolio-details/2.jpg') no-repeat center center;
+   background-size: cover;
+   min-height: 400px;
     position: relative;
     margin: 30px 0;
 }
 .body-feature-video a {
     background-color: #f12365;
     position: absolute;
-	bottom: 50px;
-	right: 50px;
+   bottom: 50px;
+   right: 50px;
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -2161,11 +2161,11 @@ p.client-name span {
             transition-duration: .5s;
 }
 .body-highlight {
-	width: 80%;
-	background: #000;
-	border-left: 2px solid #f12365;
-	padding: 25px;
-	margin-bottom: 30px;
+   width: 80%;
+   background: #000;
+   border-left: 2px solid #f12365;
+   padding: 25px;
+   margin-bottom: 30px;
 }
 .body-highlight p {
     font-size: 16px;
@@ -2205,23 +2205,23 @@ p.client-name span {
     transition: all 1s;
 }
 .date-box {
-	position: absolute;
-	top: 0;
-	right: 30px;
-	width: 100px;
-	height: 80px;
-	background: #fff;
-	color: #f12365;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 18px;
-	line-height: 24px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+   position: absolute;
+   top: 0;
+   right: 30px;
+   width: 100px;
+   height: 80px;
+   background: #fff;
+   color: #f12365;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   line-height: 24px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
 }
 .newsfeed-header a {
     color: #999;
@@ -2245,9 +2245,9 @@ p.client-name span {
     transition: all .5s;
 }
 .newsfeed-content h4 {
-	font-size: 28px;
-	line-height: 1.25;
-	margin: 20px 0;
+   font-size: 28px;
+   line-height: 1.25;
+   margin: 20px 0;
 }
 .newsfeed-content h4 a {
     color: #f12365;    
@@ -2489,7 +2489,7 @@ button:hover.post-search-box {
     float: left;
     width: 70px;
     height: 70px;
-    border: thin solid #101010;
+    border: thin solid #293250;
     position: relative;
     overflow: hidden;
 }
@@ -2522,7 +2522,7 @@ button:hover.post-search-box {
 }
 .find-archives ul li a,
 .search-category ul li a {
-	display: block;
+   display: block;
     padding: 4px 20px;
     border: thin solid #f12365;
     color: #fff;
@@ -2530,7 +2530,7 @@ button:hover.post-search-box {
     margin-bottom: 10px;
 }
 .search-category ul li a {
-	display: inline-block;
+   display: inline-block;
 }
 .find-archives ul li a:hover,
 .search-category ul li a:hover {
@@ -2572,11 +2572,11 @@ button:hover.post-search-box {
     font-size: 16px;
 }
 .contact-info-box i {
-	width: 40px;
-	height: 40px;
-	border: thin solid #f12365;
-	font-size: 18px;
-	line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border: thin solid #f12365;
+   font-size: 18px;
+   line-height: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -2600,61 +2600,61 @@ button:hover.post-search-box {
     8. Back to Top
 ------------------------------ */
 #back_to_top {
-	display: none;
-	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	font-size: 26px;
-	width: 40px;
-	height: 40px;
-	background: #f12365;
-	color: #fff;
-	cursor: none;
-	outline: none;
-	border: 0;
-	-webkit-transition-duration: 0.2s;
-	        transition-duration: 0.2s;
-	-webkit-transition-timing-function: ease-in-out;
-	        transition-timing-function: ease-in-out;
+   display: none;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   font-size: 26px;
+   width: 40px;
+   height: 40px;
+   background: #f12365;
+   color: #fff;
+   cursor: none;
+   outline: none;
+   border: 0;
+   -webkit-transition-duration: 0.2s;
+           transition-duration: 0.2s;
+   -webkit-transition-timing-function: ease-in-out;
+           transition-timing-function: ease-in-out;
     -webkit-transition-property: background-color, color;
     transition-property: background-color, color;
     z-index: 5;
   }
   #back_to_top:hover,
   #back_to_top:focus {
-	background-color: #fff;
-	color: #f12365;
+   background-color: #fff;
+   color: #f12365;
   }
   /* Animations */
 .btnEntrance {
-	-webkit-animation-duration: 0.5s;
-	        animation-duration: 0.5s;
-	-webkit-animation-fill-mode: both;
-	        animation-fill-mode: both;
-	-webkit-animation-name: btnEntrance;
-	        animation-name: btnEntrance;
+   -webkit-animation-duration: 0.5s;
+           animation-duration: 0.5s;
+   -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+   -webkit-animation-name: btnEntrance;
+           animation-name: btnEntrance;
   }
   @-webkit-keyframes btnEntrance {
-	from {
-	  opacity: 0;
-	  -webkit-transform: translate3d(0, 100%, 0);
-	          transform: translate3d(0, 100%, 0);
-	}
-	to {
-	  opacity: 1;
-	  -webkit-transform: translate3d(0, 0, 0);
-	          transform: translate3d(0, 0, 0);
-	}
+   from {
+     opacity: 0;
+     -webkit-transform: translate3d(0, 100%, 0);
+             transform: translate3d(0, 100%, 0);
+   }
+   to {
+     opacity: 1;
+     -webkit-transform: translate3d(0, 0, 0);
+             transform: translate3d(0, 0, 0);
+   }
   }
   @keyframes btnEntrance {
-	from {
-	  opacity: 0;
-	  -webkit-transform: translate3d(0, 100%, 0);
-	          transform: translate3d(0, 100%, 0);
-	}
-	to {
-	  opacity: 1;
-	  -webkit-transform: translate3d(0, 0, 0);
-	          transform: translate3d(0, 0, 0);
-	}
+   from {
+     opacity: 0;
+     -webkit-transform: translate3d(0, 100%, 0);
+             transform: translate3d(0, 100%, 0);
+   }
+   to {
+     opacity: 1;
+     -webkit-transform: translate3d(0, 0, 0);
+             transform: translate3d(0, 0, 0);
+   }
   }
