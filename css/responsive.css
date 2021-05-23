@@ -15,8 +15,8 @@
         margin-bottom: 30px;
     }
     .author-social-icons ul li a {
-        font-size: 30px;
-        margin: 0 12px;
+        font-size: 32px;
+        margin: 0 14px;
     }
     .mouseover-image {
         display: none;
@@ -440,7 +440,7 @@
     }
     .author-social-icons ul li a {
         font-size: 14px;
-        margin-bottom: 14px;
+        margin-bottom: 16px;
         line-height: 20px;
     }
     .menu-icon {
@@ -461,13 +461,23 @@
     .submenu-close button i {
         font-size: 12px;
     }
-    .sidebar .copyright-area {
+     .sidebar .copyright-area >p.bn{
         display: block;
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
         width: 170px;
         position: relative;
         top: 204px;
+        left: -56px;
+        text-align: left;
+    }
+    .sidebar .copyright-area {
+        display: block;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 170px;
+        position: relative;
+        top: 230px;
         left: -56px;
         text-align: left;
     }
