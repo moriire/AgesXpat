@@ -1080,12 +1080,12 @@ body.out .menu-container.active .submenu-close.active {
     font-style: italic;
 }
 .home-title h1 {
-   margin: 5px 0; /*10px 0;*/
+   margin: 10px 0;
 }
 .home-title h4 {
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
-   margin-bottom: 15px; /*30px;*/
+   margin-bottom:30px;
 }
 .template-btn a:first-child,
 .template-btn a:last-child {
