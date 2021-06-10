@@ -1061,7 +1061,7 @@ body.out .menu-container.active .submenu-close.active {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 25px; /*50px;*/
+    padding: 50px;
 }
 #particles-js {
    height: 100%;
@@ -1085,7 +1085,7 @@ body.out .menu-container.active .submenu-close.active {
 .home-title h4 {
    font-family: 'Poppins', sans-serif;
    font-weight: 300;
-   margin-bottom:30px;
+   margin-bottom:5px;/*30px;*/
 }
 .template-btn a:first-child,
 .template-btn a:last-child {
